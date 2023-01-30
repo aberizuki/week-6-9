@@ -1,0 +1,29 @@
+.pay-bg {
+  background: url(../img/pay-bg.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.order {
+  height: 100%;
+  flex-direction: column;
+  flex: 0.5;
+}
+
+.payment {
+  height: 100%;
+  flex-direction: column;
+  flex: 0.5;
+}
+
+.card-p {
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.p-card-p {
+  padding: 50px 0px 10px;
+}
